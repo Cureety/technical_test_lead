@@ -16,7 +16,7 @@ UseFetch.configure((config) => {
     }
   }
   config.compressionTimeoutDelay = 200
-  config.maximumSize = 2 * 1024 * 1024 # 2Mb.
+  config.maximumSize = 2 * 1024 * 1024 // 2Mb.
   config.protectedFromCleaning = ['profile', /^patients\/importants/]
 })
 
