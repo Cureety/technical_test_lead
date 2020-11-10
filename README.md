@@ -22,10 +22,10 @@ UseFetch.configure((config) => {
 
 // Usage on application component
 const Patients = () => {
-  const [{ patients, cancerOrigins }, isLoading] = useFetch((fetch) => {
+  const [{ patients, cancerOrigins }, isLoading] = useFetch((fetch) => ({
     patients: fetch('patients/active'),
     cancerOrigins: fetch('cancer_origins', { queryParams: { order: 'label ASC' }})
-  })
+  }))
 
   return (
     <Fragment>
