@@ -54,9 +54,13 @@ const FilterByCancerOrigin = () => {
 - The hook should use `fetch` (and not `axios`) and allows to pass a baseUrl (prefix) of the API so it won't be required for each request.
 - Data should also be stored in localstorage for cache purpose. When page is reloaded, data should be read instantly from localStorage while making the request in the background to update the cache.
 - Compress data before storing it in localstorage using frontend compression technology (eg. LZCompress)
-- When compression takes more than 200milliseconds, abort it and store uncompressed data. The script should know how to recognize compressed and no compressed data at the moment of reading it from cache.
 - When localStorage is out of space, delete the first item stored in localStorage that is bigger than the space needed to store the new item.
 - Add a way to protect certain entries from being cleaned.
+
+
+## Bonus to impress us!
+
+- When compression takes more than 200milliseconds, abort it and store uncompressed data. The script should know how to recognize compressed and no compressed data at the moment of reading it from cache.
 - Allow nested (multi-level) usage of the `useFetch` while using the same root Redux store.
 
 
