@@ -66,7 +66,7 @@ const FilterByCancerOrigin = () => {
 
 ## Deliverable:
 
-- Code should be delivered as a working NextJS application that demonstrates all the requirements (open-bar for the content).
+- Code should be delivered as a working Web application that demonstrates all the requirements (open-bar for the content).
 - Code should be delivered as a Git repository having multiple incremental commits and not a single big commit.
 - Will be judged: the quality of the code, the quality of commits, the quality of the documentation (in and outside of code), capacity in asking for help and the elegance of the solution.
 - The point is not for you to figure things out from scracth if you have never done something similar. Feel free to ask for pointers and help when stuck.
